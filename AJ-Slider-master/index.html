@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+
+	<!--[if lte IE 8]>
+		<link rel="stylesheet" href="assets/css/ie8.css" media="screen" type="text/css" />
+	<![endif]-->
+
+	<link rel='stylesheet' href='assets/css/fractionslider.css' type='text/css' media='all' />
+
+	<script type='text/javascript' src='assets/js/jquery-1.10.2.min.js'></script>
+	<script type='text/javascript' src='assets/js/jquery.fractionslider.min.js'></script>
+
+</head>
+
+
+	<section id="slider">
+		<div class="slider">
+
+			<div class="fs_loader"></div>
+
+			<div class="slide slide-1">
+		  		<img src="assets/img/slider/01.png" data-position="70, 100" data-delay="500" data-in="bottom" alt="">
+		  		<img src="assets/img/slider/02.png" data-position="220, 130" data-delay="1000" data-in="bottom" alt="">
+		  		<img src="assets/img/slider/03.png" data-position="290, 130" data-delay="1400" data-in="bottom" alt="">
+		  		<img src="assets/img/slider/04.png" data-position="360, 130" data-delay="1800" data-in="bottom" alt="">
+		  		<img src="assets/img/slider/05.png" data-position="430, 130" data-delay="2200" data-in="bottom" alt="">
+		  		
+		  		<img src="assets/img/slider/06.png" data-position="150, 800" data-delay="2400" data-in="right" alt="">
+		  		<img src="assets/img/slider/08.png" data-position="150, 1200" data-delay="2800" data-in="left" alt="">
+		  		<img src="assets/img/slider/07.png" data-position="150, 960" data-delay="3100" data-in="top" alt="">
+		  		<!-- all elements for the first slide -->
+			</div> <!-- slide end -->
+
+			<div class="slide slide-1">
+		  		<img src="assets/img/slider/01.png" data-position="70, 100" data-delay="500" data-in="top" alt="">
+		  		<img src="assets/img/slider/02.png" data-position="220, 130" data-delay="1000" data-in="bottom" alt="">
+		  		<img src="assets/img/slider/03.png" data-position="290, 130" data-delay="1400" data-in="bottom" alt="">
+		  		<img src="assets/img/slider/04.png" data-position="360, 130" data-delay="1800" data-in="bottom" alt="">
+		  		<img src="assets/img/slider/05.png" data-position="430, 130" data-delay="2200" data-in="bottom" alt="">
+		  		
+		  		<img src="assets/img/slider/06.png" data-position="150, 800" data-delay="2400" data-in="right" alt="">
+		  		<img src="assets/img/slider/08.png" data-position="150, 1200" data-delay="2800" data-in="left" alt="">
+		  		<img src="assets/img/slider/07.png" data-position="150, 960" data-delay="3100" data-in="top" alt="">
+		  		<!-- all elements for the first slide -->
+			</div> <!-- slide end -->
+		</div>
+	</section>
+
+		<!--script src="assets/js/respond.min.js"></script-->
+
+		<script type="text/javascript">
+
+		jQuery(window).load(function(){
+		  $('.slider').fractionSlider({
+		  		'fullWidth': 			true,
+				'responsive':           true,
+				'controls': 			true,
+				'pager': 				true,
+				'dimensions': 			"1600,600",
+				'increase': 			false,
+				// 'pauseOnHover': 		true,
+				'backgroundAnimation' : true,
+		  });
+		});
+				
+		</script>
+</html>

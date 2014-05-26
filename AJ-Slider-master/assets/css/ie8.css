@@ -1,0 +1,21 @@
+.demo-slider,
+#teaser .slider{
+	overflow:hidden;
+}
+
+.home .wrapper #primary{
+	margin-top:20px;
+}
+
+.spacer{
+	margin-top:20px;
+}
+
+.wrapper{
+	margin:0 0 -500px 0 !important;
+}
+
+.push,
+.footer{
+	height:500px !important;
+}
